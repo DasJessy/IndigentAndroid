@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">IndigentRegister</string>
+	<string name="open_drawer">Open drawer</string>
+	<string name="close_drawer">Close drawer</string>
+  <string name="Indigent_Applicants">Select Applicant / Occupant</string>
+  <string name="Indigent_Name">Name</string>
+  <string name="Indigent_Document_Type">Select Doc Type</string>
+  <string name="action_settings">Settings</string>
+  <string name="hint_sign">Get Signature</string>
+  <string name="dialog_title">SIGN HERE</string>
+  <string name="hint_cancel">Cancel</string>
+  <string name="hint_clear">Clear</string>
+  <string name="hint_save">Save</string>
+
+  <string-array name="AppOcc">
+    <item>Applicant</item>
+    <item>Occupant</item>
+  </string-array>
+
+  <string-array name="DocType">
+    <item>Affidavit Document</item>
+    <item>Letter from Employer</item>
+    <item>Salary Advise</item>
+    <item>Pension Slip</item>
+    <item>Affidavit Self-Employed</item>
+    <item>Affidavit Unemployed</item>
+    <item>Letter from SARS</item>
+    <item>Recent Municipal Account</item>
+    <item>ID Number</item>
+    <item>Birth Certificate</item>
+    
+  </string-array>
+ 
+</resources>

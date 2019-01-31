@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LayoutUpload"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="600dp"
+    android:minHeight="440dp">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:popupBackground="#000000"
+        android:id="@+id/lstAppOcc"
+        android:prompt="@string/Indigent_Applicants" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/lstName"
+        android:layout_below="@id/lstAppOcc"
+        android:prompt="@string/Indigent_Name" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:popupBackground="#000000"
+        android:id="@+id/lstDocumentType"
+        android:layout_below="@id/lstName"
+        android:prompt="@string/Indigent_Document_Type" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Comments"
+        android:id="@+id/txtUploadComments"
+        android:layout_below="@id/lstDocumentType" />
+    <Button
+        android:text="Choose File"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/dbtn1"
+        android:layout_below="@id/txtUploadComments" />
+    <TextView
+        android:text="No File Chosen"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/dbtn1"
+        android:id="@+id/txtFileChoosenDialog"
+        android:editable="false"
+        android:gravity="center" />
+    <Button
+        android:text="Upload"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/dbtn2"
+        android:layout_below="@id/txtFileChoosenDialog" />
+    <Button
+        android:text="Go Back"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/dbtn3"
+        android:layout_below="@id/dbtn2" />
+</RelativeLayout>

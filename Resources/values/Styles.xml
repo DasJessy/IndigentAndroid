@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  	<style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+	    <item name="windowNoTitle">true</item>
+	    <item name="windowActionBar">false</item>
+	    <item name="colorPrimary">#006666</item>
+	    <item name="colorPrimaryDark">#003333</item>
+	    <item name="colorAccent">#FF4081</item>
+  	</style>
+
+  <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <item name="android:spinnerStyle">@style/AppSpinner</item>
+  </style>
+
+  <style name="AppSpinner" parent="Widget.AppCompat.Spinner">
+    <item name="android:background">#000000</item>
+  </style>
+</resources>

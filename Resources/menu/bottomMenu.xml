@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/dashboard"
+      android:icon="@drawable/ic_home_black_24dp"
+      android:title="Dashboard" />
+  <item
+      android:id="@+id/Indigents"
+      android:icon="@drawable/ic_supervisor_account_black_24dp"
+      android:title="Indigents" />
+  <item
+      android:id="@+id/Reports"
+      android:icon="@drawable/ic_question_answer_black_24dp"
+      android:title="Reports" />
+  <item
+        android:id="@+id/Help"
+        android:icon="@drawable/ic_help_answer_black_24dp"
+        android:title="Help" />
+</menu>
